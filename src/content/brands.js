@@ -1,0 +1,98 @@
+export const brands = [
+  {
+    name: "Apple MacBook",
+    logo: "",
+    desc: "Premium ultrabooks with Apple Silicon (M1–M4). We repair MacBook Air and Pro models.",
+    repairs: ["Screen replacement", "Battery service", "Keyboard replacement", "Logic board repair", "Water damage"],
+  },
+  {
+    name: "Dell",
+    logo: "D",
+    desc: "From XPS to Latitude, Inspiron to Precision — we service the full Dell lineup.",
+    repairs: ["Charging port repair", "Screen replacement", "Motherboard repair", "Battery replacement", "Keyboard repair"],
+  },
+  {
+    name: "HP",
+    logo: "HP",
+    desc: "HP Spectre, Envy, Pavilion, ProBook, and EliteBook repairs by certified technicians.",
+    repairs: ["Hinge repair", "Fan replacement", "Screen replacement", "Battery service", "Diagnostics"],
+  },
+  {
+    name: "Lenovo",
+    logo: "L",
+    desc: "ThinkPad, IdeaPad, Legion, and Yoga — we know Lenovo laptops inside out.",
+    repairs: ["Keyboard replacement", "Battery repair", "Screen replacement", "Motherboard repair", "Trackpad issues"],
+  },
+  {
+    name: "ASUS",
+    logo: "A",
+    desc: "ZenBook, VivoBook, ROG, and TUF Gaming repairs with genuine-grade parts.",
+    repairs: ["Thermal paste", "Screen replacement", "Keyboard repair", "Fan replacement", "GPU repairs"],
+  },
+  {
+    name: "Acer",
+    logo: "A",
+    desc: "Swift, Aspire, Predator, and Spin — comprehensive repairs for all Acer models.",
+    repairs: ["Screen replacement", "Battery replacement", "Hinge repair", "Charging port fix", "Software issues"],
+  },
+  {
+    name: "MSI",
+    logo: "MSI",
+    desc: "Gaming and creator laptops from MSI — GP/GE/GS series and Prestige.",
+    repairs: ["GPU repair", "Thermal repaste", "Fan replacement", "Screen replacement", "Performance tuning"],
+  },
+  {
+    name: "Razer",
+    logo: "R",
+    desc: "Razer Blade 13, 15, 17 and Book series — premium repairs for premium laptops.",
+    repairs: ["Battery swelling fix", "Fan replacement", "Thermal paste", "Screen replacement", "Charging issues"],
+  },
+  {
+    name: "Samsung",
+    logo: "S",
+    desc: "Galaxy Book, Notebook 9, and Odyssey series repairs and upgrades.",
+    repairs: ["Screen replacement", "Battery service", "Charging port", "Keyboard repair", "Software"],
+  },
+  {
+    name: "Huawei",
+    logo: "H",
+    desc: "MateBook X Pro, MateBook D, and MateBook 13/14 repairs.",
+    repairs: ["Screen replacement", "Battery replacement", "Charging issues", "Keyboard repair", "Diagnostics"],
+  },
+  {
+    name: "Microsoft Surface",
+    logo: "MS",
+    desc: "Surface Pro, Surface Laptop, Surface Book, and Surface Go specialist repairs.",
+    repairs: ["Screen replacement", "Battery service", "Type cover repair", "Charging port", "SSD upgrade"],
+  },
+  {
+    name: "Toshiba",
+    logo: "T",
+    desc: "Toshiba Satellite, Portege, and Tecra laptop repairs and component upgrades.",
+    repairs: ["Hard drive upgrade", "Battery replacement", "Screen repair", "Keyboard replacement", "Fan repair"],
+  },
+  {
+    name: "Gigabyte",
+    logo: "G",
+    desc: "Gigabyte Aorus gaming laptops and G series creator laptops.",
+    repairs: ["GPU repair", "Thermal repaste", "Screen replacement", "Fan repair", "Motherboard work"],
+  },
+  {
+    name: "Alienware",
+    logo: "A",
+    desc: "High-performance Alienware gaming laptop repairs and upgrades.",
+    repairs: ["GPU/CPU thermal service", "Screen upgrade", "Fan replacement", "Battery service", "Performance tuning"],
+  },
+  {
+    name: "LG",
+    logo: "LG",
+    desc: "LG Gram ultra-light laptops — expert repairs for these delicate machines.",
+    repairs: ["Screen replacement", "Battery service", "Charging port", "Keyboard repair", "Motherboard work"],
+  },
+  {
+    name: "Framework",
+    logo: "F",
+    desc: "The modular laptop. We handle Framework repairs, upgrades, and maintenance.",
+    repairs: ["Mainboard replacement", "Screen upgrade", "Keyboard repair", "Battery service", "Expansion card issues"],
+  },
+];

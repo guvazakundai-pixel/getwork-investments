@@ -1,10 +1,12 @@
 import { Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const quickLinks = [
-  { label: "Home", href: "#hero" },
-  { label: "Services", href: "#services" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/services" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const businessHours = [
@@ -73,9 +75,9 @@ export default function Footer() {
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} className="text-white/50 text-sm hover:text-primary transition-colors font-light">
+                  <Link to={link.href} className="text-white/50 text-sm hover:text-primary transition-colors font-light">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

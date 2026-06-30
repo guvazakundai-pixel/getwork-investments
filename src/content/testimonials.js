@@ -1,0 +1,58 @@
+export const testimonials = [
+  {
+    name: "Tatenda M.",
+    location: "Harare",
+    repair: "Screen Replacement — MacBook Pro",
+    rating: 5,
+    text: "Dropped my MacBook and cracked the screen. Getwork replaced it in less than 24 hours and the display looks perfect. Professional service, fair price. Highly recommended.",
+  },
+  {
+    name: "Sarah C.",
+    location: "Borrowdale",
+    repair: "Water Damage Repair",
+    rating: 5,
+    text: "Spilled water on my Dell XPS and panicked. They told me to bring it in immediately. Three days later it was working perfectly. Saved my £2000 laptop!",
+  },
+  {
+    name: "Michael N.",
+    location: "City Centre",
+    repair: "SSD Upgrade & RAM Upgrade",
+    rating: 5,
+    text: "My old HP was unusably slow. They installed an SSD and doubled the RAM. It's like a completely new machine. Best investment I've made.",
+  },
+  {
+    name: "Rumbidzai K.",
+    location: "Mt Pleasant",
+    repair: "Battery Replacement",
+    rating: 4,
+    text: "My Lenovo battery was swelling. They replaced it same day and explained how to properly care for the new one. Professional and reassuring.",
+  },
+  {
+    name: "Brian T.",
+    location: "Belvedere",
+    repair: "Motherboard Repair — ASUS ROG",
+    rating: 5,
+    text: "Gaming laptop wouldn't turn on. Other shops said I needed a new motherboard ($600+). Getwork fixed the power IC for a fraction of the cost. Lifesavers.",
+  },
+  {
+    name: "Chipo D.",
+    location: "Greendale",
+    repair: "Data Recovery",
+    rating: 5,
+    text: "My external drive with all my university work failed. They recovered everything. I was in tears of relief. Thank you so much!",
+  },
+  {
+    name: "Tafadzwa G.",
+    location: "Eastlea",
+    repair: "Keyboard Replacement",
+    rating: 5,
+    text: "Spilt coffee on my keyboard. By the time I got to Getwork they had it apart, cleaned, and replaced within hours. Fast, friendly, and fair.",
+  },
+  {
+    name: "Natasha R.",
+    location: "Avondale",
+    repair: "Virus Removal & Optimisation",
+    rating: 4,
+    text: "My laptop was infested with pop-ups and running terribly. They cleaned it completely and optimised Windows. Feels brand new.",
+  },
+];
