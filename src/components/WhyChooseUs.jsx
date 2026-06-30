@@ -1,5 +1,5 @@
-import { Wrench, ShieldCheck, Gauge, DollarSign } from "lucide-react";
 import { motion } from "framer-motion";
+import { Wrench, ShieldCheck, Gauge, DollarSign, ArrowRight } from "lucide-react";
 
 const reasons = [
   {
@@ -26,35 +26,35 @@ const reasons = [
 
 const containerVariants = {
   hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.15 },
-  },
+  visible: { transition: { staggerChildren: 0.15 } },
 };
 
 const cardVariants = {
   hidden: { opacity: 0, y: 40 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" },
-  },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } },
 };
 
 export default function WhyChooseUs() {
   return (
-    <section id="why-us" className="py-20 bg-light-gray">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative py-24 overflow-hidden bg-gradient-to-b from-light-gray via-white to-light-gray">
+      <div className="hero-glow top-[-200px] right-[-100px]" />
+      <div className="hero-glow bottom-[-200px] left-[-100px]" />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-14"
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-dark-blue">
+          <div className="glass inline-block px-4 py-1.5 rounded-full mb-4">
+            <span className="text-xs font-semibold text-primary tracking-wide">WHY GETWORK</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-black text-dark-navy tracking-tight">
             Why Choose Us
           </h2>
-          <p className="mt-3 text-gray-600 max-w-xl mx-auto">
+          <p className="mt-3 text-gray-500 max-w-xl mx-auto font-light">
             We take laptop repair seriously. Here's why customers trust us.
           </p>
         </motion.div>
@@ -70,15 +70,13 @@ export default function WhyChooseUs() {
             <motion.div
               key={item.title}
               variants={cardVariants}
-              className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-center"
+              className="glass-card-blue rounded-3xl p-8 text-center group"
             >
-              <div className="w-14 h-14 rounded-full bg-royal-blue/10 flex items-center justify-center mx-auto mb-4">
-                <item.icon className="w-7 h-7 text-royal-blue" />
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform duration-300">
+                <item.icon className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="font-heading font-bold text-lg text-dark-blue mb-1">
-                {item.title}
-              </h3>
-              <p className="text-gray-500 text-sm">{item.desc}</p>
+              <h3 className="font-bold text-lg text-dark-navy mb-2">{item.title}</h3>
+              <p className="text-gray-500 text-sm font-light">{item.desc}</p>
             </motion.div>
           ))}
         </motion.div>

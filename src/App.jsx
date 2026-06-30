@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import TrustBadge from "./components/TrustBadge";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
@@ -16,10 +15,7 @@ export default function App() {
     <>
       <Navbar />
       <main>
-        <section className="relative">
-          <Hero />
-          <TrustBadge />
-        </section>
+        <Hero />
         <WhyChooseUs />
         <Services />
         <Pricing />
