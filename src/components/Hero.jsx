@@ -26,7 +26,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-b from-light-gray via-white to-light-gray"
+      className="relative min-h-screen flex items-center overflow-hidden bg-transparent"
     >
       {/* Ambient cursor glow */}
       <div

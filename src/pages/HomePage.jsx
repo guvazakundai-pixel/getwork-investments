@@ -12,17 +12,29 @@ import CTASection from "../components/home/CTASection";
 
 export default function HomePage() {
   return (
-    <main>
-      <Hero />
-      <WhyChooseUs />
-      <Services />
-      <Pricing />
-      <Process />
-      <Stats />
-      <Testimonials />
-      <BrandsWeRepair />
-      <FAQ />
-      <CTASection />
+    <main className="relative">
+      <div
+        className="fixed inset-0 z-0"
+        style={{
+          backgroundImage: "url(/home-bg.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed",
+        }}
+      />
+      <div className="absolute inset-0 z-[1] bg-dark-navy/70" />
+      <div className="relative z-10">
+        <Hero />
+        <WhyChooseUs />
+        <Services />
+        <Pricing />
+        <Process />
+        <Stats />
+        <Testimonials />
+        <BrandsWeRepair />
+        <FAQ />
+        <CTASection />
+      </div>
     </main>
   );
 }

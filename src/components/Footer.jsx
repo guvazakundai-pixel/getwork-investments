@@ -42,16 +42,12 @@ export default function Footer() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2.5 mb-4">
+            <div className="flex items-center mb-4">
               <img
                 src="/logo.png"
                 alt="Getwork Investments"
-                className="w-9 h-9 rounded-xl object-cover"
+                className="w-28 h-28 rounded-xl object-cover"
               />
-              <div>
-                <span className="font-bold text-base text-white">Getwork</span>
-                <span className="font-bold text-base text-primary"> Investments</span>
-              </div>
             </div>
             <p className="text-white/40 text-sm leading-relaxed mb-5 font-light">
               Professional laptop repair services. We Get It Working Again.
