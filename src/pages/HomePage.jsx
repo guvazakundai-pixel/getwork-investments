@@ -22,7 +22,7 @@ export default function HomePage() {
           backgroundAttachment: "fixed",
         }}
       />
-      <div className="absolute inset-0 z-[1] bg-dark-navy/70" />
+      <div className="absolute inset-0 z-[1] bg-dark-navy/90" />
       <div className="relative z-10">
         <Hero />
         <WhyChooseUs />
