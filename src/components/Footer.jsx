@@ -43,9 +43,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-royal flex items-center justify-center shadow-lg shadow-primary/20">
-                <span className="text-white font-bold text-sm">G</span>
-              </div>
+              <img
+                src="/logo.png"
+                alt="Getwork Investments"
+                className="w-9 h-9 rounded-xl object-cover"
+              />
               <div>
                 <span className="font-bold text-base text-white">Getwork</span>
                 <span className="font-bold text-base text-primary"> Investments</span>

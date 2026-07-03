@@ -19,24 +19,41 @@ export default function AboutPage() {
         <div className="hero-glow bottom-[-200px] left-[-100px]" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="max-w-3xl"
-          >
-            <div className="glass inline-block px-4 py-1.5 rounded-full mb-4">
-              <span className="text-xs font-semibold text-primary tracking-wide">ABOUT US</span>
-            </div>
-            <h1 className="text-4xl md:text-6xl font-black text-dark-navy tracking-tight mb-6">
-              We're Zimbabwe's <span className="text-gradient-blue">Trusted</span> Laptop Repair Specialists
-            </h1>
-            <p className="text-gray-500 text-lg leading-relaxed font-light">
-              Getwork Investments has been serving Harare with professional laptop and desktop 
-              computer repairs since [year established]. What started as a passion for solving 
-              technology problems has grown into one of the city's most trusted repair destinations.
-            </p>
-          </motion.div>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <div className="glass inline-block px-4 py-1.5 rounded-full mb-4">
+                <span className="text-xs font-semibold text-primary tracking-wide">ABOUT US</span>
+              </div>
+              <h1 className="text-4xl md:text-6xl font-black text-dark-navy tracking-tight mb-6">
+                We're Zimbabwe's <span className="text-gradient-blue">Trusted</span> Laptop Repair Specialists
+              </h1>
+              <p className="text-gray-500 text-lg leading-relaxed font-light">
+                Getwork Investments has been serving Harare with professional laptop and desktop 
+                computer repairs since [year established]. What started as a passion for solving 
+                technology problems has grown into one of the city's most trusted repair destinations.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="relative"
+            >
+              <div className="absolute w-64 h-64 rounded-full bg-primary/10 blur-[80px] -top-10 -right-10" />
+              <div className="glass-card rounded-3xl p-3 shadow-2xl relative z-10">
+                <img
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+                  alt="Getwork Investments expert technician"
+                  className="w-full h-auto rounded-2xl object-cover"
+                />
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -74,6 +91,23 @@ export default function AboutPage() {
               </p>
             </motion.div>
           </div>
+
+          {/* Team photo */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mt-8"
+          >
+            <div className="glass-card rounded-3xl p-3 shadow-2xl overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1560250056-07ba64664864?w=1200&q=80"
+                alt="Getwork Investments team of expert laptop technicians"
+                className="w-full h-auto rounded-2xl object-cover max-h-[400px]"
+              />
+            </div>
+          </motion.div>
         </div>
       </section>
 

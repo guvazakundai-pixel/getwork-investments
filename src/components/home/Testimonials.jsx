@@ -61,10 +61,21 @@ export default function Testimonials() {
                   "{t.text}"
                 </p>
               </div>
-              <div className="border-t border-gray-100 pt-3 mt-3">
-                <p className="font-semibold text-dark-navy text-sm">{t.name}</p>
-                <p className="text-gray-400 text-xs">{t.location}</p>
-                <p className="text-primary text-xs mt-1 font-medium">{t.repair}</p>
+              <div className="flex items-center gap-3 border-t border-gray-100 pt-3 mt-3">
+                <div className="w-10 h-10 rounded-full overflow-hidden shrink-0 bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
+                  {t.avatar ? (
+                    <img src={t.avatar} alt={t.name} className="w-full h-full object-cover" />
+                  ) : (
+                    <span className="text-xs font-bold text-primary">
+                      {t.name.split(" ").map(n => n[0]).join("")}
+                    </span>
+                  )}
+                </div>
+                <div className="min-w-0">
+                  <p className="font-semibold text-dark-navy text-sm truncate">{t.name}</p>
+                  <p className="text-gray-400 text-xs truncate">{t.location}</p>
+                  <p className="text-primary text-xs truncate">{t.repair}</p>
+                </div>
               </div>
             </motion.div>
           ))}

@@ -122,35 +122,29 @@ export default function Hero() {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
             className="relative flex items-center justify-center"
           >
-            {/* Glow behind laptop */}
+            {/* Glow behind */}
             <div className="absolute w-[450px] h-[450px] rounded-full bg-gradient-to-br from-primary/10 via-primary/5 to-transparent blur-[100px]" />
             <div className="absolute w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-royal/10 to-primary/5 blur-[80px] top-20" />
 
-            {/* Floating laptop */}
-            <div className="animate-float-slow relative z-10">
-              <div className="glass-card rounded-3xl p-6 md:p-8 shadow-2xl">
+            {/* Technician photo */}
+            <div className="relative z-10">
+              <div className="glass-card rounded-3xl p-3 md:p-4 shadow-2xl">
                 <img
-                  src="/laptop-hero.svg"
-                  alt="Premium laptop repair illustration"
-                  className="w-full max-w-[400px] h-auto drop-shadow-2xl"
+                  src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=500&q=80"
+                  alt="Expert laptop technician in Zimbabwe"
+                  className="w-full max-w-[400px] h-auto rounded-2xl object-cover"
                 />
               </div>
             </div>
 
-            {/* Floating glass elements */}
-            <div className="hidden lg:block absolute -top-4 -right-4 w-16 h-16 rounded-2xl glass animate-float" style={{ animationDelay: "-1s" }}>
-              <div className="flex items-center justify-center h-full">
-                <svg className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.1-5.1a2 2 0 010-2.83l2.83-2.83a2 2 0 012.83 0l5.1 5.1m-5.66 5.66l5.1 5.1a2 2 0 002.83 0l2.83-2.83a2 2 0 000-2.83l-5.1-5.1" />
-                </svg>
-              </div>
+            {/* Floating badge */}
+            <div className="hidden lg:flex absolute -top-4 -right-4 items-center gap-2 glass px-4 py-2 rounded-full animate-float" style={{ animationDelay: "-1s" }}>
+              <Wrench size={14} className="text-primary" />
+              <span className="text-xs font-semibold text-dark-navy whitespace-nowrap">Expert Repairs</span>
             </div>
-            <div className="hidden lg:block absolute bottom-8 -left-6 w-20 h-20 rounded-2xl glass animate-float" style={{ animationDelay: "-3s" }}>
-              <div className="flex items-center justify-center h-full">
-                <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </div>
+            <div className="hidden lg:flex absolute bottom-8 -left-6 items-center gap-2 glass px-4 py-2 rounded-full animate-float" style={{ animationDelay: "-3s" }}>
+              <ShieldCheck size={14} className="text-primary" />
+              <span className="text-xs font-semibold text-dark-navy whitespace-nowrap">Genuine Parts</span>
             </div>
           </motion.div>
         </div>

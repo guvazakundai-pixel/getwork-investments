@@ -4,6 +4,7 @@ export const testimonials = [
     location: "Harare",
     repair: "Screen Replacement — MacBook Pro",
     rating: 5,
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
     text: "Dropped my MacBook and cracked the screen. Getwork replaced it in less than 24 hours and the display looks perfect. Professional service, fair price. Highly recommended.",
   },
   {
@@ -11,6 +12,7 @@ export const testimonials = [
     location: "Borrowdale",
     repair: "Water Damage Repair",
     rating: 5,
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
     text: "Spilled water on my Dell XPS and panicked. They told me to bring it in immediately. Three days later it was working perfectly. Saved my £2000 laptop!",
   },
   {
@@ -18,6 +20,7 @@ export const testimonials = [
     location: "City Centre",
     repair: "SSD Upgrade & RAM Upgrade",
     rating: 5,
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80",
     text: "My old HP was unusably slow. They installed an SSD and doubled the RAM. It's like a completely new machine. Best investment I've made.",
   },
   {
@@ -25,6 +28,7 @@ export const testimonials = [
     location: "Mt Pleasant",
     repair: "Battery Replacement",
     rating: 4,
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
     text: "My Lenovo battery was swelling. They replaced it same day and explained how to properly care for the new one. Professional and reassuring.",
   },
   {
@@ -32,6 +36,7 @@ export const testimonials = [
     location: "Belvedere",
     repair: "Motherboard Repair — ASUS ROG",
     rating: 5,
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",
     text: "Gaming laptop wouldn't turn on. Other shops said I needed a new motherboard ($600+). Getwork fixed the power IC for a fraction of the cost. Lifesavers.",
   },
   {
@@ -39,6 +44,7 @@ export const testimonials = [
     location: "Greendale",
     repair: "Data Recovery",
     rating: 5,
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80",
     text: "My external drive with all my university work failed. They recovered everything. I was in tears of relief. Thank you so much!",
   },
   {
@@ -46,6 +52,7 @@ export const testimonials = [
     location: "Eastlea",
     repair: "Keyboard Replacement",
     rating: 5,
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80",
     text: "Spilt coffee on my keyboard. By the time I got to Getwork they had it apart, cleaned, and replaced within hours. Fast, friendly, and fair.",
   },
   {
@@ -53,6 +60,7 @@ export const testimonials = [
     location: "Avondale",
     repair: "Virus Removal & Optimisation",
     rating: 4,
+    avatar: "https://images.unsplash.com/photo-1546539782-6fc531453083?w=100&q=80",
     text: "My laptop was infested with pop-ups and running terribly. They cleaned it completely and optimised Windows. Feels brand new.",
   },
 ];

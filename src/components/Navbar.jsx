@@ -36,9 +36,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-royal flex items-center justify-center shadow-lg shadow-primary/20">
-              <span className="text-white font-bold text-sm tracking-tight">G</span>
-            </div>
+            <img
+              src="/logo.png"
+              alt="Getwork Investments"
+              className="w-9 h-9 rounded-xl object-cover"
+            />
             <div>
               <span className="font-bold text-base text-dark-navy tracking-tight">
                 Getwork
