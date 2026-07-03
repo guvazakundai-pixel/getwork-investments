@@ -51,29 +51,29 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <div className="glass inline-block px-4 py-1.5 rounded-full mb-6">
-              <span className="text-xs font-semibold text-primary tracking-wide">
+              <span className="text-xs font-semibold text-white tracking-wide">
                 #1 Premium Laptop Repair in Zimbabwe
               </span>
             </div>
 
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight">
-              <span className="text-dark-navy">WE FIX</span>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight text-white">
+              <span className="text-white">WE FIX</span>
               <br />
               <span className="text-gradient-blue text-[1.1em]">LAPTOPS</span>
             </h1>
 
-            <p className="mt-4 text-gray-500 text-base sm:text-lg max-w-lg leading-relaxed font-light">
+            <p className="mt-4 text-white/90 text-base sm:text-lg max-w-lg leading-relaxed font-light">
               Professional Laptop & Desktop Repairs
             </p>
 
-            <div className="flex flex-wrap gap-2 mt-1 mb-6 text-sm text-gray-400">
-              <span className="text-primary font-medium">Fast Turnaround</span>
-              <span className="text-gray-300">•</span>
-              <span className="text-primary font-medium">Genuine Parts</span>
-              <span className="text-gray-300">•</span>
-              <span className="text-primary font-medium">Affordable Prices</span>
-              <span className="text-gray-300">•</span>
-              <span className="text-primary font-medium">Same-Day Service</span>
+            <div className="flex flex-wrap gap-2 mt-1 mb-6 text-sm text-white/80">
+              <span className="text-white font-medium">Fast Turnaround</span>
+              <span className="text-white/50">•</span>
+              <span className="text-white font-medium">Genuine Parts</span>
+              <span className="text-white/50">•</span>
+              <span className="text-white font-medium">Affordable Prices</span>
+              <span className="text-white/50">•</span>
+              <span className="text-white font-medium">Same-Day Service</span>
             </div>
 
             <div className="flex flex-wrap gap-4 mt-8">
@@ -87,7 +87,7 @@ export default function Hero() {
                 href="https://wa.me/263781577166"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="glass-btn-outline text-dark-navy px-8 py-3.5 rounded-full font-semibold text-sm flex items-center gap-2"
+                className="glass-btn-outline text-white px-8 py-3.5 rounded-full font-semibold text-sm flex items-center gap-2"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347" />
@@ -108,8 +108,8 @@ export default function Hero() {
                   key={b.label}
                   className="glass-card flex items-center gap-2 px-3.5 py-2 rounded-full"
                 >
-                  <b.icon size={14} className="text-primary" />
-                  <span className="text-xs font-medium text-dark-navy whitespace-nowrap">{b.label}</span>
+                  <b.icon size={14} className="text-white" />
+                  <span className="text-xs font-medium text-white whitespace-nowrap">{b.label}</span>
                 </div>
               ))}
             </motion.div>

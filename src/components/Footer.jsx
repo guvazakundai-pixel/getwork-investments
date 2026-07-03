@@ -43,13 +43,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
-              <div className="w-28 h-28 rounded-xl bg-white flex items-center justify-center overflow-hidden shadow-lg">
-                <img
-                  src="/logo.png"
-                  alt="Getwork Investments"
-                  className="w-20 h-20 object-cover"
-                />
-              </div>
+              <img
+                src="/logo.png"
+                alt="Getwork Investments"
+                className="w-[108px] h-[108px] object-contain"
+              />
             </div>
             <p className="text-white/40 text-sm leading-relaxed mb-5 font-light">
               Professional laptop repair services. We Get It Working Again.
