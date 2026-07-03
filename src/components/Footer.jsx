@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
               <img
-                src="/logo.png"
+                src="/logo.jpg"
                 alt="Getwork Investments"
                 className="w-[108px] h-[108px] object-contain"
               />
