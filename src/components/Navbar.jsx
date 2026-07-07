@@ -39,7 +39,7 @@ export default function Navbar() {
             <img
               src="/logo.jpg"
               alt="Getwork Investments"
-              className="w-[108px] h-[108px] object-contain"
+              className="w-[324px] h-[324px] object-contain"
             />
           </Link>
 

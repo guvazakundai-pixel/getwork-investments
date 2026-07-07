@@ -46,7 +46,7 @@ export default function Footer() {
               <img
                 src="/logo.jpg"
                 alt="Getwork Investments"
-                className="w-[108px] h-[108px] object-contain"
+                className="w-[324px] h-[324px] object-contain"
               />
             </div>
             <p className="text-white/40 text-sm leading-relaxed mb-5 font-light">
